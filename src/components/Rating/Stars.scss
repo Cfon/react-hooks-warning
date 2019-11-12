@@ -1,0 +1,16 @@
+$fontSize: 1.5rem;
+
+.fa {
+    &.fa-star {
+        color: orange;
+        font-size: $fontSize;
+    }
+    &.fa-star-o {
+        color: #856404;
+        font-size: $fontSize;
+    }
+    &.fa-disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+}

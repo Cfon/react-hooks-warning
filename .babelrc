@@ -1,0 +1,15 @@
+{
+    "presets": [
+        ["@babel/env", {
+            "targets": {
+                "node": "12"
+            }
+        }],
+        "@babel/react",
+        "@babel/flow"
+    ],
+    "plugins": [
+        ["@babel/proposal-decorators", {"legacy": true}],
+        "@babel/proposal-class-properties"
+    ]
+}
